@@ -142,7 +142,7 @@ const getUserCoordinates = () => {
         alert("Geolocation request error. Please reset location permission.");
       }
     });
-}     
+}      
 
 //
 searchButton.addEventListener("click", getCityCoordinates); // Get weather using search button
