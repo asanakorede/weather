@@ -147,4 +147,4 @@ const getUserCoordinates = () => {
 // 
 searchButton.addEventListener("click", getCityCoordinates); // Get weather using search button
 cityInput.addEventListener("keyup", e => e.key === "Enter" && getCityCoordinates()); // Get weather on pressing Enter key in input field
-      
+        
