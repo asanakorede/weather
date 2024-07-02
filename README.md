@@ -17,6 +17,16 @@
 * _WEBPACK_
 * _PACKAGE.JSON_
 
+# _API Setup_
+### _This project utilizes an API to provide dynamic functionality, such as retrieving data, processing user input, or performing other server-side operations. Follow the steps below to set up and configure the API for use with the project_
+
+* _Create an OPEN WEATHER MAP api account/if you already have one , login to your account_
+* _Go to the API keys section under your profile_
+* _Verify and generate your own API key_
+* _Copy your API key_
+* _Create a .env file, then follow the format on the next line_
+* Type API_KEY = {your own API key} in your .env file
+
 # _Key Features_:
 * _Current Weather Display_: The application showcases the current weather conditions including temperature, wind speed, humidity, and a descriptive weather icon for the selected location.
 

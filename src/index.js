@@ -115,7 +115,7 @@ const getUserCoordinates = () => {
         latitude,
         longitude
       } = position.coords; // Get coordinates of user location
-      // Get city name from coordinates using reverse geocoding API
+      // Get city name from coordinates using open weather map api
       const API_URL = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=${process.env.API_KEY}`;
       fetch(API_URL)
         .then(response => {
@@ -142,9 +142,9 @@ const getUserCoordinates = () => {
         alert("Geolocation request error. Please reset location permission.");
       }
     });
-}           
- 
-// 
+}
+
+//
+locationButton.addEventListener("click", getUserCoordinates);
 searchButton.addEventListener("click", getCityCoordinates); // Get weather using search button
 cityInput.addEventListener("keyup", e => e.key === "Enter" && getCityCoordinates()); // Get weather on pressing Enter key in input field
-            
