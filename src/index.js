@@ -41,7 +41,7 @@ const getWeatherDetails = (cityName, latitude, longitude) => {
 
   // Fetch weather data
   fetch(WEATHER_API_URL)
-    .then(response => {
+    .then(response => {  
       console.log(response)
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -148,3 +148,4 @@ const getUserCoordinates = () => {
 locationButton.addEventListener("click", getUserCoordinates);
 searchButton.addEventListener("click", getCityCoordinates); // Get weather using search button
 cityInput.addEventListener("keyup", e => e.key === "Enter" && getCityCoordinates()); // Get weather on pressing Enter key in input field
+ 
