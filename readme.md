@@ -1,3 +1,8 @@
+# _SEN201 Assignment_
+# _Name: Asana Korede Daniel_
+# _Matric Number: 25/17981_
+# _Department: Computer Science_
+
 # _Weather Forecast Web Application - Full SDLC Documentation_
 ### _Weather Forecast Web Application is a comprehensive web-based solution that provides real-time weather information and forecasts for locations worldwide. Built using modern web technologies, the application follows industry-standard development practices throughout the Software Development Life Cycle (SDLC)._
 
@@ -312,4 +317,5 @@ Project Maintainer
 * Daily active users tracking
 * API response time monitoring
 * Feature adoption rates
+
 * Error rate reduction over time
